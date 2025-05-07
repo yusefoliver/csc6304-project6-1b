@@ -9,11 +9,12 @@ export default function App() {
     const randomNumber = Math.floor(Math.random() * 6) + 1;
     setDiceRoll(randomNumber);
   };
-  
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app</Text>
-      <StatusBar style="auto" />
+     <View style={styles.container}>
+      <Text>Dice Roll:</Text>
+      <Text>{diceRoll}</Text>
+      <Button title="Roll Dice" onPress={rollDice} />
     </View>
   );
 }
