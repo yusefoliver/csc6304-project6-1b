@@ -57,12 +57,12 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   button: {
-    backgroundColor: '#6200EE', // Material purple
+    backgroundColor: '#6200EE', 
     paddingVertical: 12,
     paddingHorizontal: 32,
     borderRadius: 24,
-    elevation: 4, // adds shadow on Android
-    shadowColor: '#000', // iOS shadow
+    elevation: 4, 
+    shadowColor: '#000', 
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.3,
     shadowRadius: 4,
